@@ -1,5 +1,5 @@
 <?php
-  $file = array_map(fn($a) => str_split(trim($a)), file('03t.txt'));
+  $file = array_map(fn($a) => str_split(trim($a)), file('03.txt'));
 
   function find_rating(array $report, bool $bit) {
     $n = 0;
