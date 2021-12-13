@@ -1,5 +1,5 @@
 <?php
-  $file = trim(file_get_contents('06t.txt'));
+  $file = trim(file_get_contents('06.txt'));
   $fish = explode(',', $file);
 
   for ($d = 0; $d < 80; $d++) {
